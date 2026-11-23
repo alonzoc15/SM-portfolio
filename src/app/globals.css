@@ -16,6 +16,12 @@ body {
   button {
     @apply cursor-pointer;
   }
+  .subtitle {
+    @apply text-neutral-400 uppercase mb-1 text-sm lg:text-base;
+  }
+  P {
+    @apply text-neutral-400 text-base sm:text-lg lg:text-xl;
+  }
 }
 
 @layer components {

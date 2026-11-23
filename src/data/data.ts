@@ -32,16 +32,16 @@ export const marqueeItems = [
         label: "Event Photography",
     },
     {
-        label: "Comercial Photography",
+        label: "Automotive Photography",
     },
     {
         label: "Product Photography",
     },
     {
-        label: "Wedding Photography",
+        label: "Dealership Photography",
     },
     {
-        label: "Landscape Photography",
+        label: "Auto Photography",
     },
     {
         label: "Branding Photography",

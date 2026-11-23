@@ -1,5 +1,12 @@
-import Image from "next/image";
+import React from 'react'
+import HeroSec from './home-sections/HeroSec'
 
-export default function Home() {
-  return <h1 className="text-4xl underline">home page.</h1>;
+const Home = () => {
+  return (
+    <>
+      <HeroSec />
+    </>
+  )
 }
+
+export default Home
