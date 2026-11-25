@@ -8,14 +8,16 @@ const HeroSec = () => {
         <section>
             <div>
                 {/* content */}
-                <div className="container">
+                <div className="container grid lg:grid-cols-3 lg:items-center">
                         {/* Title */}
-                            <div className="">
+                            <div>
                                 <p className="subtitle">Stunning Photography by</p>
-                                <h1 className="">Alonzo Camille</h1>
+                                <h1 className="text-[40px] sm:text-5xl md:text-6xl font-semibold">
+                                        STay In Your Lane Media
+                                </h1>
                             </div>
                         {/* shape */}
-                        <div className="">
+                        <div className="max-lg:hidden">
                             <Image 
                                 src="/images/shape-1.svg" 
                                 alt="shape" 

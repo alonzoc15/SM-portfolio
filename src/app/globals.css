@@ -22,6 +22,9 @@ body {
   P {
     @apply text-neutral-400 text-base sm:text-lg lg:text-xl;
   }
+  h2 {
+    @apply text-2xl uppercase font-semibold sm:text-3xl md:text-4xl;
+  }
 }
 
 @layer components {
