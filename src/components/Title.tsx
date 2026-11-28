@@ -5,7 +5,7 @@ import { RiArrowRightLongLine } from '@remixicon/react';
 interface TitleProps {
     subtitle: string;
     title: string;
-    link: string;
+    link?: string;
 }
 
 const Title = ({subtitle, title, link}: TitleProps) => {
@@ -15,7 +15,7 @@ const Title = ({subtitle, title, link}: TitleProps) => {
                 <p className="subtitle">{subtitle}</p>
                 <h2>{title}</h2>
             </div>
-
+            {link && (
             <button>
                 <Link href="" className="primary-btn flex item-center gap-2">
                     {link}
@@ -24,6 +24,7 @@ const Title = ({subtitle, title, link}: TitleProps) => {
                     </span>
                 </Link>
             </button>
+            )}
         </div>
         
     )

@@ -25,6 +25,9 @@ body {
   h2 {
     @apply text-2xl uppercase font-semibold sm:text-3xl md:text-4xl;
   }
+  .section {
+    @apply pt-24 md:mt-40;
+  }
 }
 
 @layer components {

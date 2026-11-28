@@ -2,6 +2,9 @@ import {
     RiFacebookFill,
     RiTwitterFill,
     RiLinkedinFill,
+    RiInstagramFill,
+    RiPinterestFill,
+    RiYoutubeFill
 } from "@remixicon/react";
 
 export const navItems = [
@@ -29,13 +32,13 @@ export const navItems = [
 
 export const marqueeItems = [
     {
-        label: "Event Photography",
-    },
-    {
         label: "Automotive Photography",
     },
     {
-        label: "Product Photography",
+        label: "Blogs",
+    },
+    {
+        label: "Newsletters",
     },
     {
         label: "Dealership Photography",
@@ -44,23 +47,23 @@ export const marqueeItems = [
         label: "Auto Photography",
     },
     {
-        label: "Branding Photography",
+        label: "Content Creation",
     },
 ];
 
 export const socialLinks = [
     {
-        icon: RiFacebookFill,
+        icon: RiInstagramFill,
     },
     {
-        icon: RiTwitterFill,
+        icon: RiPinterestFill,
     },
     {
-        icon: RiLinkedinFill,
+        icon: RiYoutubeFill,
     },
 ];
 
-export const servicesHeightligts = [
+export const servicesHighlights = [
     {
         id: 1,
         label: "Coverage for weddings, parties, corporate functions, and more.",
@@ -82,21 +85,21 @@ export const servicesHeightligts = [
 export const portfolioSectionItems = [
     {
         id: 1,
-        imgUrl: "/images/portfolio-img-1.png",
-        title: "Faces of Resilience",
-        date: "March 2022",
+        imgUrl: "/images/IMG_1355.png",
+        title: "Rides by The River",
+        date: "November 2026",
     },
     {
         id: 2,
-        imgUrl: "/images/portfolio-img-2.png",
-        title: "A Wedding Tale",
-        date: "January 2020",
+        imgUrl: "/images/IMG_0350.png",
+        title: "You Can't Park There",
+        date: "November 2026",
     },
     {
         id: 3,
-        imgUrl: "/images/portfolio-img-3.png",
-        title: "Product Elegance",
-        date: "January 2020",
+        imgUrl: "/images/IMG_9869.png",
+        title: "Cars En Coffee",
+        date: "November 2026",
     },
 ];
 
